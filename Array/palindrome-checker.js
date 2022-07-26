@@ -4,9 +4,7 @@
 function main() {
   const arr = [1, 2, 3, 4, 2, 1];
 
-  const isPalindrome = palindromeChecker(arr, 0, arr.length - 1);
-
-  if (isPalindrome) {
+  if (palindromeChecker(arr, 0, arr.length - 1)) {
     console.log("The array is palindrome");
   } else {
     console.log("Not palindrome");
